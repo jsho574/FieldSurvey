@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3CDFF2A1227D01BC00E5688B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFF2A0227D01BC00E5688B /* AppDelegate.swift */; };
-		3CDFF2A3227D01BC00E5688B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFF2A2227D01BC00E5688B /* ViewController.swift */; };
 		3CDFF2A6227D01BC00E5688B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDFF2A4227D01BC00E5688B /* Main.storyboard */; };
 		3CDFF2A8227D01BD00E5688B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDFF2A7227D01BD00E5688B /* Assets.xcassets */; };
 		3CDFF2AB227D01BD00E5688B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CDFF2A9227D01BD00E5688B /* LaunchScreen.storyboard */; };
 		3CDFF2B6227D01BD00E5688B /* FieldSurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFF2B5227D01BD00E5688B /* FieldSurveyTests.swift */; };
 		3CDFF2C1227D01BD00E5688B /* FieldSurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFF2C0227D01BD00E5688B /* FieldSurveyUITests.swift */; };
+		3CDFF2D1227D073400E5688B /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDFF2D0227D073400E5688B /* SurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		3CDFF29D227D01BC00E5688B /* FieldSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDFF2A0227D01BC00E5688B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CDFF2A2227D01BC00E5688B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CDFF2A5227D01BC00E5688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CDFF2A7227D01BD00E5688B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CDFF2AA227D01BD00E5688B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3CDFF2BC227D01BD00E5688B /* FieldSurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldSurveyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDFF2C0227D01BD00E5688B /* FieldSurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyUITests.swift; sourceTree = "<group>"; };
 		3CDFF2C2227D01BD00E5688B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDFF2D0227D073400E5688B /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				3CDFF2A0227D01BC00E5688B /* AppDelegate.swift */,
-				3CDFF2A2227D01BC00E5688B /* ViewController.swift */,
 				3CDFF2A4227D01BC00E5688B /* Main.storyboard */,
 				3CDFF2A7227D01BD00E5688B /* Assets.xcassets */,
 				3CDFF2A9227D01BD00E5688B /* LaunchScreen.storyboard */,
 				3CDFF2AC227D01BD00E5688B /* Info.plist */,
+				3CDFF2D0227D073400E5688B /* SurveyViewController.swift */,
 			);
 			path = FieldSurvey;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CDFF2A3227D01BC00E5688B /* ViewController.swift in Sources */,
+				3CDFF2D1227D073400E5688B /* SurveyViewController.swift in Sources */,
 				3CDFF2A1227D01BC00E5688B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
