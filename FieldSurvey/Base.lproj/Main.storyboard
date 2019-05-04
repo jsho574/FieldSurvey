@@ -55,6 +55,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="ow3-Wv-uqk" kind="show" id="4it-7m-3p9"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
